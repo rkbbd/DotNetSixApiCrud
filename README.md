@@ -5,14 +5,16 @@
 # .Net 6.0 Api Crud App
 ![.Net 6.0 Api Crud App - MD RAKIB HASAN](https://github.com/rkbbd/DotNetSixApiCrud/blob/master/project%20preview.png?raw=true)  
 
-In this project, basically CRUD operations are handled. As an example, a product database has been created. There is a product table on this database. Simply listing, deleting, adding and updating operations on the product table are discussed.
+In this project, basically CRUD operations are handled. As an example, a people database has been created. There is a people table on this database. Simply listing, deleting, adding and updating operations on the person table are discussed.
 
 ## Getting Started
 Before creating the project, .net 6.0 sdk must be downloaded and installed. After the necessary SDK installations, make sure to do version control on the command line with the `dotnet --version` command.
 ### Required packages
-* [.Net 6.0 Preview 4 and above SDK](https://dotnet.microsoft.com/download/dotnet/6.0)  
-* [Entity Framework Core In Memory Preview 4 and above SDK](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.InMemory/6.0.0-preview.4.21253.1)  
-.Net CLI Installation Command :  `dotnet add package Microsoft.EntityFrameworkCore.InMemory --version 6.0.0-preview.4.21253.1`  
+* [.Net 6.0](https://dotnet.microsoft.com/download/dotnet/6.0)  
+* [Microsoft.EntityFrameworkCore](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/)  
+.Net CLI Installation Command :  `Install-Package Microsoft.EntityFrameworkCore -Version 6.0.0`  
+* [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/)  
+.Net CLI Installation Command :  `Install-Package Microsoft.EntityFrameworkCore.SqlServer -Version 6.0.0`  
 
 ### Create a New MinApi Project
 After making the necessary installations, run the following command on the command line to create a new project.  
