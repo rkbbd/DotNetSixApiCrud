@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s3bas2Y8/ptIUTY+g03UfxfP0rgy6aQEprrauVHRefQgOxRuo5IAHPYque2Ke+pwXMLqtuwXpzeP2WDht7xlJg==",
+  "dgSpecHash": "RoI7NdRlRRj87m7AQN7u/HaghwcJXkSn3EFnL2PMC7gMxTOhHTcJZr/OdUTp9wZGZed2M8h7UCpT5BKzjrfBRg==",
   "success": true,
-  "projectFilePath": "D:\\Project\\Dot\\DotNetSixApiCrudApp\\DotNetSixApiCrudApp\\DotNetSixApiCrudApp.csproj",
+  "projectFilePath": "D:\\Project\\Dot\\DotNetSixApiCrud\\DotNetSixApiCrudApp\\DotNetSixApiCrudApp\\DotNetSixApiCrudApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

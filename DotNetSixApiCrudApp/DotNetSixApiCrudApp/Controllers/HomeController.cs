@@ -14,12 +14,21 @@ namespace DotNetSixApiCrudApp.Controllers
             _context = context;
         }
 
+        /// <summary>
+        /// Get People
+        /// </summary>
+        /// <returns></returns>
         [HttpGet(Name = "GetPeople")]
         public async Task<IEnumerable<Person>> GetPeople()
         {
             return await _context.People.ToListAsync();
         }
 
+        /// <summary>
+        /// Add new person
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task AddPerson(PersonViewModel model)
         {
@@ -27,8 +36,14 @@ namespace DotNetSixApiCrudApp.Controllers
             await _context.SaveChangesAsync();
         }
 
+        /// <summary>
+        /// Update person
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [HttpPut("{id}")]
-        public async Task UpdateProduct(int id, PersonViewModel model)
+        public async Task UpdatePerson(int id, PersonViewModel model)
         {
             var result = await _context.People.FindAsync(id);
             result.Name = model.Name;
@@ -36,8 +51,14 @@ namespace DotNetSixApiCrudApp.Controllers
             result.Phone = model.Phone;
             await _context.SaveChangesAsync();
         }
+
+        /// <summary>
+        /// Delete a Person.
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete("{id}")]
-        public async Task DeleteProduct(int id)
+        public async Task DeletePerson(int id)
         {
             var result = await _context.People.FindAsync(id);
             _context.Remove(result);
