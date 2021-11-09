@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "d/sR5f7v6veIfX3wHHUA0ycRrVgVvuV9c+gFa5AJQPA=",
+  "Source": "DotNetSixApiCrudApp",
+  "BasePath": "_content/DotNetSixApiCrudApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

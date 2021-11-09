@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3db62ea1-002f-4c8e-bc84-5457109e525b": {
+      "ProjectGuid": "3db62ea1-002f-4c8e-bc84-5457109e525b",
+      "DisplayName": "DotNetSixApiCrudApp",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
